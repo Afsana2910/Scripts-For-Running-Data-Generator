@@ -8,7 +8,7 @@
         "sensors":[
             {"type":"dev.timestamp",    "name":"ts"},
 	    {"type":"dev.uuid",         "name":"uuid"},
-            {"type":"double_decrement", "name":"luminousity", "min":460.0, "max":990.0}
+            {"type":"double_decrement", "name":"luminousity", "min":0.5, "max":460.0}
         ]
     }
 ]
