@@ -3,7 +3,7 @@ The Repository provides a solution build around a real time synthetic IoT data g
 
 Iosynth generates data based on the device configuration file provided to it. However, it was limited to using a single device configuration file. The solution here adapts Iosynth to use different device configuration files for different time intervals resuliting in generating real looking sensor data like that of actual IoT devices.
 
-Device Configuration files are created for every 1 hour interval from a Dataset containing IoT sensor data.
+Device configuration files are created for every 1 hour interval from a Dataset containing IoT sensor data.
 The Python Script orchestrator.py manages the selection of device configuration files for each time interval by reading the JSON file configure.json. 
 The script orchestrator.py has be to be executed every time interval (1 hour) which is done by the scheduler i.e. Cron job.
 
